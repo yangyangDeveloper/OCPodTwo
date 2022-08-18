@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OCPodTwo_Example' do
+  pod 'OCPodTwo', :path => '../'
+
+  target 'OCPodTwo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
