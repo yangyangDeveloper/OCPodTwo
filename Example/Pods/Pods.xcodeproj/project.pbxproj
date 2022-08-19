@@ -7,54 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1781DB8EF698C46005DFCB02303FD68C /* Pig.h in Headers */ = {isa = PBXBuildFile; fileRef = 969F1C292CCF4A3E379CF61E6D4F9C84 /* Pig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19D2FB68A7D3E2D096B185969C82D6D6 /* Pods-OCPodTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FECA37D69A5D09A57CFFC4EEB6054634 /* Pods-OCPodTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BF19DC0E8B30E2E5875436F1637603F /* OCPodTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6E507E6AF5ABE6F471046C4C830CC /* OCPodTwo-dummy.m */; };
-		26CB77042666F5863B8F8C18CF61F3FC /* OCPodTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE58F7A6F25B61B32A62695ED1CBF5FC /* OCPodTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3078C7264F9C885EEAB3AD18F336CB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		54660A15158CCEDBA5F8BB2D2FBABF51 /* Pods-OCPodTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEA8900A97944EF60DE2B1E89D3FF /* Pods-OCPodTwo_Tests-dummy.m */; };
+		5FC2C7F6BB4ED5D5495B9899CAD57EA8 /* OCPodTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E99AABB664C5FD0B5E842914C94185 /* OCPodTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615B3B932D81367403D0839E4824F307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		65BE6B7576746289224F6A0A3514B90C /* Pods-OCPodTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1138448270CD446B93C95A58FE0DAE1A /* Pods-OCPodTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C859285B2143DC372B657FB38149E19 /* OCPodTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F728D74D4AAE2F9AD4B3ED5BF7449F36 /* OCPodTwo-dummy.m */; };
+		A5F8078AD07C539A90D1CB8FAE1F24DB /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F5C20D8CD6DD1B82F24C6E29B046A /* Pig.m */; };
 		AFE7FD320A4B49A531748D2AE2F1F6D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B159C0B086F1A0AD178C4DB7844A79D4 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 621BAC3C502B283082AF94796D11507E /* Pig.m */; };
-		EF96675404B5E79A57E0E5731B16D18B /* Pig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D69E0EC09067FFE7D3116C41F4289A6 /* Pig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B473D6BD69297C68AD22D464C96371D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FEC9A7543320B58B8009B8AA65FF6DEA /* Pods-OCPodTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B1CE52009A138E54F43433682C2A4E /* Pods-OCPodTwo_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DB4E9EF2A312FB9F95DD8917EDDC1D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1AC7740D4AEB7DE5ABB8FE7FC0C2152;
-			remoteInfo = OCPodTwo;
-		};
-		A7DC01AF858FCC6ED31477F931752A3C /* PBXContainerItemProxy */ = {
+		B681B674CD45525C45F020147BB450DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 487747C5108D50BBE267F15307292532;
 			remoteInfo = "Pods-OCPodTwo_Example";
 		};
+		C4E7C6585EA571963D914EC79687D656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AC7740D4AEB7DE5ABB8FE7FC0C2152;
+			remoteInfo = OCPodTwo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023C46E9A445F1B2C7E11798DDCD9B97 /* OCPodTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodTwo.debug.xcconfig; sourceTree = "<group>"; };
 		1138448270CD446B93C95A58FE0DAE1A /* Pods-OCPodTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPodTwo_Example-umbrella.h"; sourceTree = "<group>"; };
-		1684864B0802F9360BAC0D507587E8D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		16F8F32A55F33FA44359BF4305E90563 /* OCPodTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodTwo.release.xcconfig; sourceTree = "<group>"; };
+		1A1F5C20D8CD6DD1B82F24C6E29B046A /* Pig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Pig.m; path = OCPodTwo/Classes/Pig.m; sourceTree = "<group>"; };
 		1BA7211EE84A8C6AF6403A39EB16A907 /* Pods-OCPodTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1FD9A21F3C8E94D9634BBE27940A4788 /* OCPodTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCPodTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27A6E507E6AF5ABE6F471046C4C830CC /* OCPodTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCPodTwo-dummy.m"; sourceTree = "<group>"; };
 		29066FB2EF190F8BC255600E1F47CCE8 /* Pods-OCPodTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCPodTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2F26AFBC0A97C76FED8A82E37D588FFD /* Pods-OCPodTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		309BEBA83F554A8380F4B06936598AB1 /* Pods-OCPodTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCPodTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D69E0EC09067FFE7D3116C41F4289A6 /* Pig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Pig.h; path = OCPodTwo/Classes/Pig.h; sourceTree = "<group>"; };
+		3C0FBBEF87B4FFEBF9E621491FE1A5FA /* OCPodTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCPodTwo.modulemap; sourceTree = "<group>"; };
 		5167EEBE09055380A3DED92DA63BAE49 /* Pods-OCPodTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		597174CCCC0D2B39F8BC052715CE7D22 /* OCPodTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCPodTwo.modulemap; sourceTree = "<group>"; };
-		5A25C5B2D8FF132E5D205B1FD26250E3 /* OCPodTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCPodTwo-Info.plist"; sourceTree = "<group>"; };
+		58333EC07EF72374E6E4C7E404ED52D1 /* OCPodTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodTwo-prefix.pch"; sourceTree = "<group>"; };
 		5DFDEA8900A97944EF60DE2B1E89D3FF /* Pods-OCPodTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPodTwo_Tests-dummy.m"; sourceTree = "<group>"; };
 		61B1CE52009A138E54F43433682C2A4E /* Pods-OCPodTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPodTwo_Example-dummy.m"; sourceTree = "<group>"; };
-		621BAC3C502B283082AF94796D11507E /* Pig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Pig.m; path = OCPodTwo/Classes/Pig.m; sourceTree = "<group>"; };
 		67F94EC9F7A004655C57628F8052FE15 /* Pods-OCPodTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodTwo_Tests-Info.plist"; sourceTree = "<group>"; };
 		6B5CA67A3A75FBF3EC5C5C3F697869C2 /* Pods-OCPodTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E7A8A2B7BCA237997B188C36C736170 /* Pods-OCPodTwo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OCPodTwo_Tests"; path = Pods_OCPodTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,24 +56,30 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7433B93A37496673859F729914BF3C84 /* Pods-OCPodTwo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OCPodTwo_Example"; path = Pods_OCPodTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3EC7E6B5881CA6EDAAAD5C7F7B1179 /* OCPodTwo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCPodTwo; path = OCPodTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		969F1C292CCF4A3E379CF61E6D4F9C84 /* Pig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Pig.h; path = OCPodTwo/Classes/Pig.h; sourceTree = "<group>"; };
 		9A32196515DD796F3A57FEF5D81E2823 /* Pods-OCPodTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPodTwo_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A27B593761780ACA33E21D876E927EA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5591F1C8FDE0AFD50843D9F3A882B0B /* Pods-OCPodTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE58F7A6F25B61B32A62695ED1CBF5FC /* OCPodTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodTwo-umbrella.h"; sourceTree = "<group>"; };
+		A5D9881FA251735372FC8573B7453377 /* OCPodTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodTwo.debug.xcconfig; sourceTree = "<group>"; };
 		BBA0DA4226BBBC97AFC0A80853E6C624 /* Pods-OCPodTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCPodTwo_Example.modulemap"; sourceTree = "<group>"; };
-		C4A7EF1C2D85FFC7CFF01A459E5918CB /* OCPodTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodTwo-prefix.pch"; sourceTree = "<group>"; };
+		CA461F4CB1CC431285E1569E73FF1A55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D9BAE489DCE0D4A1966503289EA5F229 /* Pods-OCPodTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCPodTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE4D81E34CB1DF65FC0F5248C5AF142C /* Pods-OCPodTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPodTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF01B5085A4E82A0E33BC18C7A749DD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5E99AABB664C5FD0B5E842914C94185 /* OCPodTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPodTwo-umbrella.h"; sourceTree = "<group>"; };
+		EA73ED3E87EB0C0EF34D892481DACB5A /* OCPodTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPodTwo.release.xcconfig; sourceTree = "<group>"; };
+		F34CF8635BA2AEBF61CDA7BD68A0908B /* OCPodTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCPodTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F470109297EA60F41AA2D2A425D41D37 /* OCPodTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCPodTwo-Info.plist"; sourceTree = "<group>"; };
+		F728D74D4AAE2F9AD4B3ED5BF7449F36 /* OCPodTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCPodTwo-dummy.m"; sourceTree = "<group>"; };
 		FECA37D69A5D09A57CFFC4EEB6054634 /* Pods-OCPodTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPodTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B8771309B29240145C4E7B930F753CF /* Frameworks */ = {
+		41AAAA8F7B99D54F3D9F8F911126CAB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3078C7264F9C885EEAB3AD18F336CB47 /* Foundation.framework in Frameworks */,
+				B473D6BD69297C68AD22D464C96371D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +102,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1792BA68F91E7B724AC29FDDC7203862 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC59D6CD9ECDFCEA95597175E019C2 /* OCPodTwo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F67F5205AE2C4ED7108C618F4DB20EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FBBEF87B4FFEBF9E621491FE1A5FA /* OCPodTwo.modulemap */,
+				F728D74D4AAE2F9AD4B3ED5BF7449F36 /* OCPodTwo-dummy.m */,
+				F470109297EA60F41AA2D2A425D41D37 /* OCPodTwo-Info.plist */,
+				58333EC07EF72374E6E4C7E404ED52D1 /* OCPodTwo-prefix.pch */,
+				E5E99AABB664C5FD0B5E842914C94185 /* OCPodTwo-umbrella.h */,
+				A5D9881FA251735372FC8573B7453377 /* OCPodTwo.debug.xcconfig */,
+				EA73ED3E87EB0C0EF34D892481DACB5A /* OCPodTwo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCPodTwo";
+			sourceTree = "<group>";
+		};
 		52D6D629C044C1E06C4191ECE6476E53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +143,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6A9A5A0E667C8997C1FDE6716643490F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA461F4CB1CC431285E1569E73FF1A55 /* LICENSE */,
+				F34CF8635BA2AEBF61CDA7BD68A0908B /* OCPodTwo.podspec */,
+				DF01B5085A4E82A0E33BC18C7A749DD7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		70F08E34939F25353BA157C5A66EFEAC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,26 +162,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		82A436A04F60D1362B0928E7BDEBB767 /* OCPodTwo */ = {
+		A2FC59D6CD9ECDFCEA95597175E019C2 /* OCPodTwo */ = {
 			isa = PBXGroup;
 			children = (
-				3D69E0EC09067FFE7D3116C41F4289A6 /* Pig.h */,
-				621BAC3C502B283082AF94796D11507E /* Pig.m */,
-				9A03E5590915415FA2BF883F86EE081D /* Pod */,
-				E13898675C357699C85C273834A640E5 /* Support Files */,
+				969F1C292CCF4A3E379CF61E6D4F9C84 /* Pig.h */,
+				1A1F5C20D8CD6DD1B82F24C6E29B046A /* Pig.m */,
+				6A9A5A0E667C8997C1FDE6716643490F /* Pod */,
+				2F67F5205AE2C4ED7108C618F4DB20EB /* Support Files */,
 			);
 			name = OCPodTwo;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9A03E5590915415FA2BF883F86EE081D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1684864B0802F9360BAC0D507587E8D3 /* LICENSE */,
-				1FD9A21F3C8E94D9634BBE27940A4788 /* OCPodTwo.podspec */,
-				A27B593761780ACA33E21D876E927EA8 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C3FE5E8413084C186023D1FB632EC513 /* Pods-OCPodTwo_Tests */ = {
@@ -188,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF2FC4E1318B1C2E063E61AF120C8C21 /* Development Pods */,
+				1792BA68F91E7B724AC29FDDC7203862 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				52D6D629C044C1E06C4191ECE6476E53 /* Products */,
 				70F08E34939F25353BA157C5A66EFEAC /* Targets Support Files */,
@@ -203,46 +226,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF2FC4E1318B1C2E063E61AF120C8C21 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82A436A04F60D1362B0928E7BDEBB767 /* OCPodTwo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E13898675C357699C85C273834A640E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				597174CCCC0D2B39F8BC052715CE7D22 /* OCPodTwo.modulemap */,
-				27A6E507E6AF5ABE6F471046C4C830CC /* OCPodTwo-dummy.m */,
-				5A25C5B2D8FF132E5D205B1FD26250E3 /* OCPodTwo-Info.plist */,
-				C4A7EF1C2D85FFC7CFF01A459E5918CB /* OCPodTwo-prefix.pch */,
-				AE58F7A6F25B61B32A62695ED1CBF5FC /* OCPodTwo-umbrella.h */,
-				023C46E9A445F1B2C7E11798DDCD9B97 /* OCPodTwo.debug.xcconfig */,
-				16F8F32A55F33FA44359BF4305E90563 /* OCPodTwo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCPodTwo";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D20F0A0F97FFE813B29B48CCA44232B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CB77042666F5863B8F8C18CF61F3FC /* OCPodTwo-umbrella.h in Headers */,
-				EF96675404B5E79A57E0E5731B16D18B /* Pig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7155BAC235E12985CE50AD3869CBD574 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65BE6B7576746289224F6A0A3514B90C /* Pods-OCPodTwo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EEFC0DCE90BE6651F50911AB970EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC2C7F6BB4ED5D5495B9899CAD57EA8 /* OCPodTwo-umbrella.h in Headers */,
+				1781DB8EF698C46005DFCB02303FD68C /* Pig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2CB00FF97D9A529E29ADBE6B7B00C387 /* PBXTargetDependency */,
+				74D9D3AB5ADF7B60A1F271351A3AB3D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCPodTwo_Example";
 			productName = Pods_OCPodTwo_Example;
@@ -288,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7285D21132C9ACF85CDEC278EC5072DA /* PBXTargetDependency */,
+				101F30FCC438FE085647C698A1122656 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCPodTwo_Tests";
 			productName = Pods_OCPodTwo_Tests;
@@ -297,12 +297,12 @@
 		};
 		F1AC7740D4AEB7DE5ABB8FE7FC0C2152 /* OCPodTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E57BC8440AC34F99D1016AC06BD1CB4 /* Build configuration list for PBXNativeTarget "OCPodTwo" */;
+			buildConfigurationList = 11716E266A6389A95278F1251E69FFA8 /* Build configuration list for PBXNativeTarget "OCPodTwo" */;
 			buildPhases = (
-				0D20F0A0F97FFE813B29B48CCA44232B /* Headers */,
-				796516AC6459FB6F0160C5695E40085A /* Sources */,
-				4B8771309B29240145C4E7B930F753CF /* Frameworks */,
-				04A1444D9A210A7D1EE192674338EF0C /* Resources */,
+				A3EEFC0DCE90BE6651F50911AB970EDB /* Headers */,
+				A817654FB515918DAE623547AC042DD2 /* Sources */,
+				41AAAA8F7B99D54F3D9F8F911126CAB8 /* Frameworks */,
+				0962AAC90BC16932ED0404DA9D5D637D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04A1444D9A210A7D1EE192674338EF0C /* Resources */ = {
+		0962AAC90BC16932ED0404DA9D5D637D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		796516AC6459FB6F0160C5695E40085A /* Sources */ = {
+		A817654FB515918DAE623547AC042DD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF19DC0E8B30E2E5875436F1637603F /* OCPodTwo-dummy.m in Sources */,
-				B159C0B086F1A0AD178C4DB7844A79D4 /* Pig.m in Sources */,
+				7C859285B2143DC372B657FB38149E19 /* OCPodTwo-dummy.m in Sources */,
+				A5F8078AD07C539A90D1CB8FAE1F24DB /* Pig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,24 +395,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CB00FF97D9A529E29ADBE6B7B00C387 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OCPodTwo;
-			target = F1AC7740D4AEB7DE5ABB8FE7FC0C2152 /* OCPodTwo */;
-			targetProxy = 9DB4E9EF2A312FB9F95DD8917EDDC1D2 /* PBXContainerItemProxy */;
-		};
-		7285D21132C9ACF85CDEC278EC5072DA /* PBXTargetDependency */ = {
+		101F30FCC438FE085647C698A1122656 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OCPodTwo_Example";
 			target = 487747C5108D50BBE267F15307292532 /* Pods-OCPodTwo_Example */;
-			targetProxy = A7DC01AF858FCC6ED31477F931752A3C /* PBXContainerItemProxy */;
+			targetProxy = B681B674CD45525C45F020147BB450DF /* PBXContainerItemProxy */;
+		};
+		74D9D3AB5ADF7B60A1F271351A3AB3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCPodTwo;
+			target = F1AC7740D4AEB7DE5ABB8FE7FC0C2152 /* OCPodTwo */;
+			targetProxy = C4E7C6585EA571963D914EC79687D656 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E32242ECE6425F6EA19C2FDF8D59EA5 /* Debug */ = {
+		1386FC76DB29825E72373A0A0DBA1603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 023C46E9A445F1B2C7E11798DDCD9B97 /* OCPodTwo.debug.xcconfig */;
+			baseConfigurationReference = EA73ED3E87EB0C0EF34D892481DACB5A /* OCPodTwo.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,10 +436,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4AA5F87501D2522469FA0D531447F47A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -563,11 +564,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		BAC2C52B4050AB6745D8744CC6DAE0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D9881FA251735372FC8573B7453377 /* OCPodTwo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCPodTwo/OCPodTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCPodTwo/OCPodTwo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCPodTwo/OCPodTwo.modulemap";
+				PRODUCT_MODULE_NAME = OCPodTwo;
+				PRODUCT_NAME = OCPodTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		BF15FB359E492D1B01EC006839D31441 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -702,46 +735,14 @@
 			};
 			name = Debug;
 		};
-		D90C4B0A29B8051BBFBAEE1B68A0185C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16F8F32A55F33FA44359BF4305E90563 /* OCPodTwo.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCPodTwo/OCPodTwo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCPodTwo/OCPodTwo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCPodTwo/OCPodTwo.modulemap";
-				PRODUCT_MODULE_NAME = OCPodTwo;
-				PRODUCT_NAME = OCPodTwo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E57BC8440AC34F99D1016AC06BD1CB4 /* Build configuration list for PBXNativeTarget "OCPodTwo" */ = {
+		11716E266A6389A95278F1251E69FFA8 /* Build configuration list for PBXNativeTarget "OCPodTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E32242ECE6425F6EA19C2FDF8D59EA5 /* Debug */,
-				D90C4B0A29B8051BBFBAEE1B68A0185C /* Release */,
+				BAC2C52B4050AB6745D8744CC6DAE0D9 /* Debug */,
+				1386FC76DB29825E72373A0A0DBA1603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
