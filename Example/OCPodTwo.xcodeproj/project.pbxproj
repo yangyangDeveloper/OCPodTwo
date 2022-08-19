@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		73062B0220E0CA1C0519B18D /* Pods_OCPodTwo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85E47DA3055954E9334B926 /* Pods_OCPodTwo_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4AECA9528AE68F300AF8A6E /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AECA9428AE68F300AF8A6E /* Pig.m */; };
 		C168A1271A40196DA0CD43F4 /* Pods_OCPodTwo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB2988AE116C359927195A8 /* Pods_OCPodTwo_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		854AC5E39CA1B77E76182636 /* Pods-OCPodTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCPodTwo_Example.release.xcconfig"; path = "Target Support Files/Pods-OCPodTwo_Example/Pods-OCPodTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB2988AE116C359927195A8 /* Pods_OCPodTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPodTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AECA9328AE68F300AF8A6E /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pig.h; path = ../../OCPodTwo/Classes/Pig.h; sourceTree = "<group>"; };
+		A4AECA9428AE68F300AF8A6E /* Pig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Pig.m; path = ../../OCPodTwo/Classes/Pig.m; sourceTree = "<group>"; };
 		B85E47DA3055954E9334B926 /* Pods_OCPodTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPodTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50A8CFC87F36AB40AE014D8 /* Pods-OCPodTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCPodTwo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCPodTwo_Tests/Pods-OCPodTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +135,8 @@
 		6003F593195388D20070C39A /* Example for OCPodTwo */ = {
 			isa = PBXGroup;
 			children = (
+				A4AECA9328AE68F300AF8A6E /* Pig.h */,
+				A4AECA9428AE68F300AF8A6E /* Pig.m */,
 				6003F59C195388D20070C39A /* ZYAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -364,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AECA9528AE68F300AF8A6E /* Pig.m in Sources */,
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

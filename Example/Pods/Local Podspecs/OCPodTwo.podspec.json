@@ -1,7 +1,7 @@
 {
   "name": "OCPodTwo",
   "version": "0.1.0",
-  "summary": "A short description of OCPodTwo.",
+  "summary": "OC创建的pod 被用于Swift pod 引入依赖",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangyangDeveloper/OCPodTwo",
   "license": {

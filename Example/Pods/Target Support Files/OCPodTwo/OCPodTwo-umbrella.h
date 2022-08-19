@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Pig.h"
 
 FOUNDATION_EXPORT double OCPodTwoVersionNumber;
 FOUNDATION_EXPORT const unsigned char OCPodTwoVersionString[];
