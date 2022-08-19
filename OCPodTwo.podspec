@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCPodTwo'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'OC创建的pod 被用于Swift pod 引入依赖'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 66666.
                        DESC
 
   s.homepage         = 'https://github.com/yangyangDeveloper/OCPodTwo'
